@@ -20,7 +20,7 @@ import { EducationSection } from '../Education/Education';
 import { ExperienceSection } from '../Experience/Experience';
 import { SkillsSection } from '../Skills/Skills';
 import { ProjectsSection } from '../Projects/Projects';
-import NeuroGebraSection from '../NeuroGebra/NeuroGebra';
+// import NeuroGebraSection from '../NeuroGebra/NeuroGebra';
 import { AchievementsSection } from '../Achievements/Achievements';
 import { LeadershipSection } from '../Leadership/Leadership';
 import { CertificatesSection } from '../Certificates/Certificates';
@@ -130,12 +130,12 @@ const Home = () => {
       {/* Sections */}
       <AboutSection id="about" />
       <EducationSection id="education" />
-      <ExperienceSection id="experience" />
+      {/* <ExperienceSection id="experience" /> */}
       <SkillsSection id="skills" />
       <ProjectsSection id="projects" />
-      <NeuroGebraSection id="neurogebra" />
+      {/* <NeuroGebraSection id="neurogebra" /> */}
       <AchievementsSection id="achievements" />
-      <LeadershipSection id="leadership" />
+      {/* <LeadershipSection id="leadership" /> */}
       <CertificatesSection id="certificates" />
       <ContactSection id="contact" />
 

@@ -6,7 +6,7 @@ const navItems = [
   { label: 'Home', to: '/' },
   { label: 'About', to: '/about' },
   { label: 'Education', to: '/education' },
-  { label: 'Experience', to: '/experience' },
+  // { label: 'Experience', to: '/experience' },
   { label: 'Skills', to: '/skills' },
   { label: 'Projects', to: '/projects' },
   // { label: 'NeuroGebra', to: '/neurogebra' },
