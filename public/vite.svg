@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="FS monogram favicon">
+	<rect x="2" y="2" width="60" height="60" rx="12" fill="#ffffff" stroke="#1f2937" stroke-width="1.5" />
+	<text
+		x="32"
+		y="47"
+		text-anchor="middle"
+		font-family="Segoe UI, Arial, sans-serif"
+		font-size="50"
+		font-weight="700"
+		fill="#111827"
+	>FS</text>
+</svg>
