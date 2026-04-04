@@ -1,23 +1,22 @@
 # Md. Monirul Islam – AI Engineer | ML Researcher | Problem Solver
 
-Building production-grade AI systems focused on **Medical AI, Explainable AI (XAI), NLP, and Computer Vision**.
+Building production-grade AI systems focused on **AI Automation, Explainable AI , Machine Learning, and Computer Vision**.
 
 ---
 
 ## 📌 About Me
-I'm an AI Engineer working at the intersection of research and production—focused on **Medical AI, Explainable AI, NLP, and Computer Vision**. My work emphasizes transparency, reliability, and real-world usability.
+I'm an AI Engineer working at the intersection of research and production—focused on **AI Automation, Explainable AI, NLP, and Computer Vision**. My work emphasizes transparency, reliability, and real-world usability.
 
 I’ve worked hands-on with LLMs, RAG pipelines, and production-grade ML systems—taking ideas from early prototypes to deployed solutions.
 
-Currently, I work as **Junior AI Engineer at SparkTech Agency**, leading AI integration for client products. Outside of work, I mentor students, contribute to open-source projects, and explore ways to make AI models interpretable and fair.
+
 
 ---
 
 ## 🌟 Quick Snapshot
 - **Location:** Dhaka, Bangladesh  
-- **Current Role:** Junior AI Engineer · SparkTech Agency  
-- **Focus Areas:** Medical AI, XAI, NLP, Computer Vision, RAG, LLMs  
-- **Currently Learning:** Advanced LLM applications, scalable MLOps, multimodal reasoning  
+- **Focus Areas:** AI Automation,  NLP, Computer Vision, RAG, LLMs  
+- **Currently Learning:** Advanced AI Agent applications, scalable SaaS Project, multimodal reasoning  
 
 ---
 
@@ -33,17 +32,7 @@ Al-Hera Academy School & College, Bera, Pabna (2018 — 2020)
 
 ---
 
-## 💼 Experience
-**Nov 2025 — Present** | Junior AI Engineer · SparkTech Agency  
-- Lead design, training, and optimization of ML/DL models for production.  
-- Develop NLP, OCR, Computer Vision, and RAG-based AI systems.  
-- Collaborate with cross-functional teams to deliver client-ready solutions.  
 
-**Sep 2025 — Nov 2025** | Trainee AI Engineer · SparkTech Agency  
-- Assisted in training, validating, and deploying ML models.  
-- Supported AI prototyping, experimentation, and data pipelines.  
-
----
 
 ## 🛠 Skills & Tech Stack
 **Programming & Development:** Python, C, Java, JavaScript, SQL, MATLAB, Git, Linux  
@@ -61,21 +50,9 @@ Al-Hera Academy School & College, Bera, Pabna (2018 — 2020)
 - Predicts diabetes risk using a Scikit-learn ML model via FastAPI.  
 - Automated AI workflow with n8n and OpenAI integration for health suggestions.  
 - SaaS usage limit: 5 predictions/month.  
-[View Live Demo](#) | [Watch Video](#)
+[View Live Demo](#) 
 
-### **NeuroGebra**
-- A framework for deep learning transparency and education.  
-- Features include symbolic + numerical + trainable expressions, dataset library, diagnostic tools, and deployment bridges.  
-- Exportable to PyTorch, TensorFlow, or JAX.  
-[GitHub Repository](#) | [Documentation](#) | [PyPI Package](#)
 
----
-
-## 🏆 Achievements
-- 1st Runner-Up | Comilla University Data Science Hackathon, Nov 2024  
-- Best Innovation Award | IDP-1 Project Showcase, Jan 2025  
-- 3rd Runner-Up | University IT Olympiad, Oct 2024  
-- Multiple hackathon finalist recognitions (2022-2025)  
 
 ---
 
