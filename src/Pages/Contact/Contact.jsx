@@ -91,7 +91,7 @@ export const ContactSection = ({ id = 'contact' }) => {
               Contact
             </p>
             <h2 className="mx-auto max-w-3xl text-3xl font-bold leading-tight text-gray-900 sm:text-4xl">
-              Let’s build meaningful AI systems together
+              Let’s build meaningful AI Agent together
             </h2>
             <p className="mx-auto max-w-2xl text-sm text-gray-600 sm:text-[15px]">
               Open to AI engineering roles, research collaborations, and impactful

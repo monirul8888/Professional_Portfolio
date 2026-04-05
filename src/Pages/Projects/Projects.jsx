@@ -1,6 +1,11 @@
 import React from "react";
 import { ArrowUpRight, CheckCircle2, Play } from "lucide-react";
 
+import p1 from "../Images/p1.png";
+
+import p2 from "../Images/p2.png";
+import p3 from "../Images/p3.png";
+
 import {
   SiScikitlearn,
   SiPython,
@@ -8,6 +13,7 @@ import {
   SiOpenai,
   SiReact,
   SiN8N,
+  SiHtml5,
 } from "react-icons/si";
 
 // Tech stack icon mapping
@@ -18,6 +24,7 @@ const techIcons = {
   Python: SiPython,
   "OpenAI API": SiOpenai,
   n8n: SiN8N,
+  HTML: SiHtml5,
 };
 
 /* Projects Data */
@@ -25,7 +32,7 @@ const projectsData = [
   {
     title: "AI Diabetes Prediction SaaS",
     company: "AI Automation Workflow",
-    period: "Integrated Design Project",
+  
     description:
       "A SaaS web application that predicts diabetes risk using a machine learning model. Users submit health data through a form and instantly receive predictions powered by a Scikit-learn model served through FastAPI. n8n automates AI workflows and integrates AI health suggestions.",
     results: [
@@ -35,13 +42,60 @@ const projectsData = [
       "Integrated OpenAI for AI health suggestions",
     ],
     tech: ["React", "FastAPI", "Python", "Scikit-learn", "n8n", "OpenAI API"],
-    image:
-      "https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?w=800&auto=format&fit=crop&q=60",
-    link: "http://my-diabetes-app.surge.sh", // live project
+    image: p1,
+    link: "https://diabetes-prediction-amber.vercel.app", // live project
     linkLabel: "View Live Demo",
-    video: "https://drive.google.com/file/d/1VOHJBoVYmbouGIb7So12CcpkfN3KCWNn/view", // promo video
+    video: "#", // promo video
     videoLabel: "Watch Video",
     badge: "5 Free Predictions/Month",
+  },
+
+  {
+    title: "AI Resume Builder SaaS",
+    company: "AI Automation Workflow",
+    period: "Integrated Design Project",
+    description:
+      "A SaaS web application that creates professional, ATS-friendly resumes instantly using AI automation. Users fill out a form with personal, educational, and professional details, and a PDF resume is generated and sent to their email automatically.",
+    results: [
+      "Built AI-powered resume generation system",
+      "Generated ATS-optimized PDF resumes",
+      "Automated email delivery of resumes",
+      "Implemented free and pro pricing plans with feature limitations",
+    ],
+    tech: ["n8n", "HTML", "CSS", "AI Automation"],
+    image: p2,
+    link: "https://resume-n8n.vercel.app", // live project
+    linkLabel: "View Live Demo",
+    video: "#", // promo video
+    videoLabel: "Watch Video",
+    badge: "Free & Pro Plans Available",
+  },
+
+  {
+    title: "Messenger & WhatsApp Chatbot SaaS",
+    company: "AI Automation Workflow",
+    period: "Integrated Design Project",
+    description:
+      "A SaaS web application that allows businesses to automate customer conversations on Messenger and WhatsApp. Built using n8n, the chatbot handles messages, provides automated responses, and integrates AI for smarter interactions.",
+    results: [
+      "Built automated chatbot for Messenger & WhatsApp using n8n",
+      "Integrated AI for intelligent customer responses",
+      "Enabled multi-platform messaging automation",
+      "Configured triggers, workflows, and email notifications",
+    ],
+    tech: [
+      "n8n",
+      "Messenger API",
+      "WhatsApp API",
+      "AI Automation",
+    ],
+    image: p3, // replace with your project image
+    link: "https://www.facebook.com/profile.php?id=61574698470466", // testing Facebook link
+    linkLabel: "Test Messenger Chat",
+    phone: " WhatsApp +1 555 173 3859", // testing phone number
+    video: "#", // promo video
+    videoLabel: "Watch Demo",
+    badge: "Automated Messaging Bot",
   },
 ];
 
@@ -72,7 +126,7 @@ export const ProjectsSection = ({ id = "projects" }) => {
             >
               {/* Freemium Badge */}
               {project.badge && (
-                <span className="absolute top-4 left-4 bg-yellow-400 text-black text-xs font-bold px-3 py-1 rounded-full shadow-md z-10">
+                <span className="absolute top-4 left-4 bg-red-400 text-black text-xs font-bold px-3 py-1 rounded-full shadow-md z-10">
                   {project.badge}
                 </span>
               )}
@@ -100,7 +154,9 @@ export const ProjectsSection = ({ id = "projects" }) => {
                 </h3>
 
                 {/* Description */}
-                <p className="text-sm text-gray-600 mb-5">{project.description}</p>
+                <p className="text-sm text-gray-600 mb-5">
+                  {project.description}
+                </p>
 
                 {/* Results */}
                 <div className="space-y-2 mb-6">
@@ -152,6 +208,17 @@ export const ProjectsSection = ({ id = "projects" }) => {
                       >
                         {project.videoLabel || "Watch Video"}
                         <Play className="w-4 h-4" />
+                      </a>
+                    )}
+                  </div>
+
+                  <div className="flex gap-3 flex-wrap items-center">
+                    {project.phone && (
+                      <a
+                        href={`tel:${project.phone.replace(/\s/g, "")}`}
+                        className="text-sm font-semibold text-blue-600 underline"
+                      >
+                        {project.phone}
                       </a>
                     )}
                   </div>

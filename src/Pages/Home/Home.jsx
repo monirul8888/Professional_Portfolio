@@ -12,7 +12,9 @@ import {
   SiKeras,
   SiPostgresql,
   SiPandas,
-  SiNumpy
+  SiNumpy,
+  SiFastapi,
+  SiN8N
 } from 'react-icons/si';
 import { Database, Zap, Package } from 'lucide-react';
 import { AboutSection } from '../About/About';
@@ -46,10 +48,10 @@ const Home = () => {
             Md. Monirul Islam
           </h1>
           <p className="text-xl text-gray-600 mb-2">
-            AI Engineer | ML Researcher | Problem Solver
+            AI Engineer | AI Automation | ML Researcher | Problem Solver
           </p>
           <p className="text-lg text-gray-500 mb-8 max-w-2xl mx-auto">
-            Building production-grade AI systems focused on Medical AI, Explainable AI, NLP, and Computer Vision.
+            Building production-grade AI systems focused on AI Automation, Explainable AI, NLP, and Computer Vision.
           </p>
           
           {/* CTA Buttons */}
@@ -84,7 +86,11 @@ const Home = () => {
           <p className="text-center text-sm font-semibold text-gray-600 mb-8">Tech Stack</p>
           <div className="flex flex-wrap items-center justify-center gap-6 opacity-70">
             <div className="flex items-center gap-2">
-              <SiPytorch className="h-7 w-7 text-gray-600" />
+              <SiN8N className="h-7 w-7 text-gray-600" />
+               <span className="text-xs font-semibold text-gray-600">N8N</span>
+               <SiFastapi className="h-7 w-7 text-gray-600" />
+               <span className="text-xs font-semibold text-gray-600">FastAPI</span>
+               <SiPytorch className="h-7 w-7 text-gray-600" />
               <span className="text-xs font-semibold text-gray-600">PyTorch</span>
             </div>
             <div className="flex items-center gap-2">
@@ -134,7 +140,7 @@ const Home = () => {
       <SkillsSection id="skills" />
       <ProjectsSection id="projects" />
       {/* <NeuroGebraSection id="neurogebra" /> */}
-      <AchievementsSection id="achievements" />
+      {/* <AchievementsSection id="achievements" /> */}
       {/* <LeadershipSection id="leadership" /> */}
       <CertificatesSection id="certificates" />
       <ContactSection id="contact" />

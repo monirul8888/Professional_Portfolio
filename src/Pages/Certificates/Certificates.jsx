@@ -14,12 +14,12 @@ const certificatesData = [
     date: '2024',
     focus: 'LLM fundamentals · Prompting · Generative AI workflows',
   },
-  {
-    title: 'AI+ Prompt Engineer Level 1',
-    provider: 'AI CERTs',
-    date: '2025',
-    focus: 'Prompt design · Prompt evaluation · Applied AI use cases',
-  },
+  // {
+  //   title: 'AI+ Prompt Engineer Level 1',
+  //   provider: 'AI CERTs',
+  //   date: '2025',
+  //   focus: 'Prompt design · Prompt evaluation · Applied AI use cases',
+  // },
   {
     title: 'Supervised Learning with Scikit-Learn',
     provider: 'DataCamp',
