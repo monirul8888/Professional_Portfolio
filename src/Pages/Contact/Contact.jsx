@@ -71,7 +71,7 @@ export const ContactSection = ({ id = 'contact' }) => {
     },
     {
       name: 'Instagram',
-      handle: '@monirul154',
+      handle: '@monirul_154',
       href: 'https://www.instagram.com/monirul154',
       icon: Instagram,
     },
