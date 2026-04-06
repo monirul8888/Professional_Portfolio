@@ -15,7 +15,8 @@ import {
   SiN8N,
   SiHtml5,
   SiMessenger,
-  SiWhatsapp
+  SiWhatsapp,
+  SiGooglegemini,
 } from "react-icons/si";
 
 // Tech stack icon mapping
@@ -27,8 +28,9 @@ const techIcons = {
   "OpenAI API": SiOpenai,
   n8n: SiN8N,
   HTML: SiHtml5,
- Messanger: SiMessenger,
-  WhatsApp: SiWhatsapp
+ Messenger: SiMessenger,
+  WhatsApp: SiWhatsapp,
+  Gemini: SiGooglegemini,
   
 };
 
@@ -92,7 +94,7 @@ const projectsData = [
       "n8n",
       "Messenger",
       "WhatsApp",
-      "AI Automation",
+      "Gemini",
     ],
     image: p3, // replace with your project image
     link: "https://www.facebook.com/profile.php?id=61574698470466", // testing Facebook link
