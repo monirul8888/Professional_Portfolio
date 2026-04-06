@@ -14,6 +14,8 @@ import {
   SiReact,
   SiN8N,
   SiHtml5,
+  SiMessenger,
+  SiWhatsapp
 } from "react-icons/si";
 
 // Tech stack icon mapping
@@ -25,6 +27,9 @@ const techIcons = {
   "OpenAI API": SiOpenai,
   n8n: SiN8N,
   HTML: SiHtml5,
+ Messanger: SiMessenger,
+  WhatsApp: SiWhatsapp
+  
 };
 
 /* Projects Data */
@@ -85,8 +90,8 @@ const projectsData = [
     ],
     tech: [
       "n8n",
-      "Messenger API",
-      "WhatsApp API",
+      "Messenger",
+      "WhatsApp",
       "AI Automation",
     ],
     image: p3, // replace with your project image
