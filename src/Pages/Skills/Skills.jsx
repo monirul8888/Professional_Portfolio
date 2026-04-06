@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, Brain, Eye, Cloud, BarChart3, Database, Layers, MessageSquare } from 'lucide-react';
+import { Code, Brain, Bot, Workflow, Cog , Eye, Cloud, BarChart3, Database, Layers, MessageSquare } from 'lucide-react';
 
 export const SkillsSection = ({ id = 'skills' }) => {
   return (
@@ -36,7 +36,7 @@ export const SkillsSection = ({ id = 'skills' }) => {
             />
              <SkillCard
               title="AI Automation"
-              icon={Brain}
+              icon={Workflow}
               skills={[
                 'n8n', "Zapier", 'Make.com', "Google Gemini Chat Model", "OpenAI"
               ]}
