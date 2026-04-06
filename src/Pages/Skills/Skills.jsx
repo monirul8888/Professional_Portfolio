@@ -34,9 +34,16 @@ export const SkillsSection = ({ id = 'skills' }) => {
                  'Git', 'Linux',
               ]}
             />
+             <SkillCard
+              title="AI Automation"
+              icon={Brain}
+              skills={[
+                'n8n', "Zapier", 'Make.com', "Google Gemini Chat Model", "OpenAI"
+              ]}
+            />
 
             <SkillCard
-              title="Machine Learning & AI"
+              title="Machine Learning & AI "
               icon={Brain}
               skills={[
                 'Scikit-learn', 'TensorFlow', 'Keras', 'PyTorch',
