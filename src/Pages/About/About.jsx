@@ -65,11 +65,11 @@ export const AboutSection = ({ id = "about" }) => {
                   label="Location"
                   value="Dhaka, Bangladesh"
                 />
-                {/* <SnapshotRow
+                <SnapshotRow
                   icon={Briefcase}
                   label="Current role"
-                  value="Junior AI Engineer · SparkTech Agency"
-                /> */}
+                  value=" AI Automation Engineer (Jr.) | Softvence  Delta"
+                />
                 <SnapshotRow
                   icon={Zap}
                   label="Focus areas"
